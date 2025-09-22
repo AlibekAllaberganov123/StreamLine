@@ -5,13 +5,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-	<link rel="stylesheet" href="css/style.css">
-	<title>Document</title>
+	<!-- Font Awesome link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Streamline | Landing Page</title>
 </head>
 
-<body>
+<body
+	class="font-(system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif) text-[#020817]">
 	<!-- header section starts -->
-	<header class="py-2 stickyborder-solid border-gray-300 border-b">
+	<header class="px-2 sticky border-solid border-gray-300 border-b z-100 top-0">
 		<div class="flex justify-between p-5">
 			<div>
 				<a class="flex items-center gap-[5px]" href="#"> <img class="size-6" src="./img/header-1.svg" alt="header img">
@@ -34,6 +38,67 @@
 		</div>
 	</header>
 	<!-- header section ends -->
+	<!-- hero section starts -->
+	<section class="p-[40px]">
+		<div class="flex items-center">
+			<div>
+				<h1 class="text-[60px] font-bold">Streamline Your Workflow, Amplify Your Results</h1>
+				<p class="text-[#64748b] text-xl my-2">The all-in-one platform that helps teams collaborate, manage projects,
+					and
+					deliver
+					results faster than ever
+					before.</p>
+				<div>
+					<button class="bg-[#10b981] text-white px-4 py-1.5 rounded-sm hover:bg-emerald-600 transition-colors">Start
+						Free Trial</button>
+					<button class="border-[#e5e7eb]-50 border py-1.5 px-1.5 rounded-sm text-base">Book a Demo</button>
+				</div>
+			</div>
+			<div>
+				<img class="rounded-3xl" src="img/hero-1.webp" alt="hero img">
+			</div>
+		</div>
+	</section>
+	<!-- hero section ends -->
+	<section id="features" class="py-[40px] max-w-6xl m-0, m-auto">
+		<div>
+			<div class="text-center">
+				<span class="text-base bg-[#d1fae5] text-[#10b981] py-1 px-2 rounded-sm">Features</span>
+				<h2 class="text-[36px] font-bold">Everything You Need in One Place</h2>
+				<p class="text-[#64748b] text-xl my-2">Our platform provides all the tools you need to manage your projects
+					efficiently and effectively.</p>
+			</div>
+			<div class="flex text-center justify-between mt-10">
+				<div class="border-gray-300 border py-6 px-6 rounded-lg hover:-translate-y-5">
+					<i class="fa-regular fa-clock text-[#059669] text-2xl bg-[#d1fae5] p-2 rounded-full "></i>
+					<h3 class="text-xl font-bold my-1">Lightning Fast</h3>
+					<p class="w-[188px] text-sm text-[#64748b]">Our platform is optimized for speed, ensuring your team can work
+						without delays.
+					</p>
+				</div>
+				<div class="border-gray-300 border py-6 px-6 rounded-lg hover:-translate-y-5">
+					<i class="fa-solid fa-shield text-[#059669] text-2xl"></i>
+					<h3 class="text-xl font-bold my-1">Secure</h3>
+					<p class="w-[188px] text-sm text-[#64748b]">We prioritize security, ensuring your data and information are
+						protected at all times.
+					</p>
+				</div>
+				<div class="border-gray-300 border py-6 px-6 rounded-lg hover:-translate-y-5">
+					<i class="fa-solid fa-chart-simple text-[#059669] text-2xl"></i>
+					<h3 class="text-xl font-bold my-1">Intuitive</h3>
+					<p class="w-[188px] text-sm text-[#64748b]">Our user-friendly interface makes it easy for you to navigate and
+						manage your projects.
+					</p>
+				</div>
+				<div class="border-gray-300 border py-6 px-6 rounded-lg hover:-translate-y-5">
+					<i class="fa-solid fa-bolt text-[#059669] text-2xl"></i>
+					<h3 class="text-xl font-bold my-1">Time-Saving</h3>
+					<p class="w-[188px] text-sm text-[#64748b]">Automation features that save your team hours of manual work every
+						week.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 
 </html>
